@@ -2,13 +2,13 @@
 public class Bomba {
 	private int pressaoDesejada;
 	private int pressaoLida;
-	private int difereçaPneu;
+	private int diferecaPneu;
 	
-	public int getDifereçaPneu() {
-		return difereçaPneu;
+	public int getDiferecaPneu() {
+		return diferecaPneu;
 	}
-	public void setDifereçaPneu(int difereçaPneu) {
-		this.difereçaPneu = difereçaPneu;
+	public void setDiferecaPneu(int diferecaPneu) {
+		this.diferecaPneu = diferecaPneu;
 	}
 	
 	public int getPressaoDesejada() {
@@ -26,7 +26,7 @@ public class Bomba {
 	
 	public void ObterResultado()
 	{
-		this.difereçaPneu= this.getPressaoDesejada() - this.getPressaoLida();
+		this.diferecaPneu= this.getPressaoDesejada() - this.getPressaoLida();
 	}
 	
 	

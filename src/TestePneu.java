@@ -10,7 +10,7 @@ public class TestePneu {
 		bomb.setPressaoLida(30);
 		bomb.ObterResultado();
 		
-		System.out.println("Resultado: "+bomb.getDifereçaPneu());
+		System.out.println("Resultado: "+bomb.getDiferecaPneu());
 
 	}
 
